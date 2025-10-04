@@ -1,0 +1,29 @@
+{
+  "name": "inventario-almacen-app",
+  "version": "1.0.0",
+  "description": "Aplicación de inventario de almacén de repuestos.",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1",
+    "sequelize": "^6.37.7",
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@vue/cli-service": "^4.5.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": []
+}
